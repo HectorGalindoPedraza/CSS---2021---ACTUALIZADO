@@ -1,5 +1,5 @@
 # CURSO DE CSS-2021-ACTUALIZADO
-   CSS 2021 - Nivel Basico  
+   #CSS 2021 - Nivel Basico  
   -Primeros pasos
   - Estado de CSS
   - Fundamentos de CSS
@@ -11,7 +11,7 @@
   - Colores 
   - Textos 
   - Variables CSS
-   CSS 2021 - Nivel Intermedio 
+   #CSS 2021 - Nivel Intermedio 
   - METOLOGIA bem 
   - Responsive Desing 
   - Imagenes 
@@ -24,7 +24,7 @@
   - Pseudoelementos 
   - Flexbox 
   - Grid 
-   CSS 2021 - Nivel Avanzado 
+   #CSS 2021 - Nivel Avanzado 
   -  Funcionamiento de CSS en el navegador 
   - Propiedad animables
   - Estado inicial de los elementos 
