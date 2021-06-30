@@ -19,10 +19,23 @@
                 [atributo|=valor]
 
     Selectores compuestos
-        Selectores agrupados 
+        Selectores agrupados -> Se agrupan los selectores 
+        separados por comas y se escribe el estilo una sola vez
         Selectores combinadores
-        Pseudoclases - Pseudoelementos
+            Selector descendiente
 */
+
+div .title-2 {
+    background: teal;
+}
+
+
+/* .text,
+.text-2,
+.text-3,
+.text-4 {
+    background-color: steelblue;
+} */
 
 
 /* * {
@@ -81,8 +94,4 @@ li {
 
 [lang|="en-GB"] {
     background-color: magenta;
-}
-
-[lang|="es-CO"] {
-    background-color: lightseagreen;
 }
