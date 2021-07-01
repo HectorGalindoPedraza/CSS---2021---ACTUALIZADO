@@ -23,9 +23,19 @@
         separados por comas y se escribe el estilo una sola vez
         Selectores combinadores
             Selector descendiente
+            Selector de hermano siguiente +
+            Selector de hermanos siguientes ~ 
 */
 
 div .title-2 {
+    /* background: teal; */
+}
+
+.text-2+.title-2 {
+    background: tomato;
+}
+
+.text~.title-2 {
     background: teal;
 }
 
