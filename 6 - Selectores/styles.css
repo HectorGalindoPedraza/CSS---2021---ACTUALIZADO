@@ -39,6 +39,10 @@ div .title-2 {
     background: teal;
 }
 
+.container p {
+    background-color: orangered;
+}
+
 
 /* .text,
 .text-2,
