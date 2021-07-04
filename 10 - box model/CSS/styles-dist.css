@@ -16,22 +16,33 @@
         1 valor -> margin: top/right/bottom/left
 */
 
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
 body {
     background: #333;
     color: #fff;
+    margin: 0;
+}
+
+.header {
+    background: red;
+    height: 50px;
 }
 
 .title {
     width: 300px;
-    background-color: lightblue;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .block {
-    background: purple;
+    background: lightblue;
     width: 200px;
     height: 200px;
+    margin-top: 100px;
+    /* margin: 0 auto; */
     margin-left: auto;
     margin-right: auto;
 }
