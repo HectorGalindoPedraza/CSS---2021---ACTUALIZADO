@@ -67,19 +67,41 @@ body {
     margin: 0;
     background: #333;
     color: #fff;
-    padding-top: 70px;
+    /* padding-top: 70px; */
+}
+
+img{
+    width: 100%;
+    display: block;
 }
 .header{
     text-align: center;
-    padding:25px 0;
+    /* padding:25px 0; */
     background: lightblue;
     color: orangered;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    width:100%;
+    width:100%; */
+    /* position: sticky;
+    top: 0; */
+ 
 }
-.link{
+article{
+     outline: 3px solid red;
+}
+.article-title{
+    position:sticky;
+    top: 0px;
+    background: #333;
+    margin: 0;
+   
+}
+/* .menu{
+    position: sticky;
+    top: 0;
+} */
+/* .link{
     position: fixed;
     background: lightcoral;
     width: 400px;
-}
+} */
