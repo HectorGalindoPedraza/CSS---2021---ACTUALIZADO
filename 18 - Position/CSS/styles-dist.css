@@ -56,6 +56,10 @@
             para mover el elemento, si no para indicarle en que punto pasará a tener un 
             comportamiento de posicionamiento fixed, hasta llegar a ese punto se comportará
             como si tuviera relative.
+            
+            z-index: Es la propiedad que nos permite ordenar los 
+            elementos superpuestos para controlar cual se coloca por 
+            delante y cual por detras.
 */
 
 * {
@@ -70,38 +74,40 @@ body {
     /* padding-top: 70px; */
 }
 
-img{
-    width: 100%;
-    display: block;
+.container{
+    width: 200px;
+    height: 200px;
+    background: #555;
+    position: relative;
 }
-.header{
+.box{
+    width: 100px;
+    height: 100px;
     text-align: center;
-    /* padding:25px 0; */
-    background: lightblue;
-    color: orangered;
-    /* position: fixed;
-    top: 0;
-    width:100%; */
-    /* position: sticky;
-    top: 0; */
- 
+    color: #333;
 }
-article{
-     outline: 3px solid red;
-}
-.article-title{
-    position:sticky;
-    top: 0px;
-    background: #333;
-    margin: 0;
-   
-}
-/* .menu{
-    position: sticky;
-    top: 0;
-} */
-/* .link{
-    position: fixed;
+.box-1{
     background: lightcoral;
-    width: 400px;
-} */
+    position: relative;
+    left: 150px;
+    z-index: -1;
+}
+.box-1-2{
+    background: aqua;
+    position: relative;
+    left: 150px;
+    top: -25px;
+    z-index: -1;
+}
+.box-2 {
+    background:lightgreen;
+    position: relative;
+    top: 50px;
+    z-index: 20;
+}
+.box-3{
+    background:lightseagreen;
+    position: relative;
+    z-index: 10;
+}
+ 
