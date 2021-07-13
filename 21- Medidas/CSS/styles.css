@@ -18,4 +18,32 @@
         ex -> Altura x de la fuente del elemento. 
         ch -> La medida del ancho del glifo "0" de la letra del elemento.
         lh -> Altura de la linea del elemento. 
+    
+    rem -> Corresponde a la medida de la "m" de la raiz del 
+    documento (html)
+
+    ejemplo: 16px = 1rem
+
+    em -> Corresponde a la medida de la "m" del contexto
+    donde nos encontramos.
+
+    El estandar del tamaño de fuente por defecto en la raiz
+    del documento es 16px, y NO ES RECOMENDABLE MODIFICARLO.
+
+    NOTA: Tanto "em" como "rem" se calcula en base a la 
+    propiedad font-size (tamaño de fuente)
 */
+body {
+    background: #333;
+    color: lightcoral;
+}
+/* .title{
+    font-size: 5em;
+} */
+.link{
+    background: lightcoral;
+    color: #333;
+    padding: 1em 2em;
+    border-radius: 0.5rem;
+    /* font-size:4rem; */
+}
