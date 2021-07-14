@@ -39,22 +39,42 @@
 
     auto -> Cuando usamos auto le pedimos al navegador que 
     calcule en funcion del espacio disponible.
+
+    HEIGHT: 
+        % -> Cuando estamos dentro de un contenedor,
+        este tiene que tener un alto declarado, si no
+        no podrá calcular el porcentaje se sustituira
+        automaticamente por auto.
+
+        auto -> Cuando utilizamos auto el alto lo 
+        calculará el navegador en base al contenido del
+        elemento. 
+    
+    NOTA: Height es una propiedad que tenéis que usar
+    con mucho cuidado. Si no es necesario establecer
+    un alto, dejad que el contenido sea el que decida
+    el alto del elemento.
 */
 body {
     background: #333;
     color: lightcoral;
     margin: 0;
 }
+.header{
+    background-color:lightblue;
+    text-align: center;
+}
 .box {
-    width: auto;
-    margin: 0 50px;
-    height: 250px;
+    width: 300px;
+    /* margin: 0 50px; */
+    height: 300px;
+    /* padding-bottom: 20px; */
     background-color: lightgreen;
 }
 .box-children{
-    width: auto;
-    height: 25%;
-    margin-left: 100px;
+    position: relative;
+    width: 50%;
+    height: 100%;
     background: lightskyblue;
 }
 /* .title{
