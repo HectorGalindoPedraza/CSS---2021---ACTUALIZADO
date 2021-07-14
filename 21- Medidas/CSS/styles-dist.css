@@ -32,18 +32,38 @@
 
     NOTA: Tanto "em" como "rem" se calcula en base a la 
     propiedad font-size (tamaño de fuente)
+
+    % -> Cuando usamos porcentajes usamos de referencia el
+    tamaño del contenedor y el navegador calcula ese
+    porcentaje. Esto ocurre cuando usamos transform.
+
+    auto -> Cuando usamos auto le pedimos al navegador que 
+    calcule en funcion del espacio disponible.
 */
 body {
     background: #333;
     color: lightcoral;
+    margin: 0;
+}
+.box {
+    width: auto;
+    margin: 0 50px;
+    height: 250px;
+    background-color: lightgreen;
+}
+.box-children{
+    width: auto;
+    height: 25%;
+    margin-left: 100px;
+    background: lightskyblue;
 }
 /* .title{
     font-size: 5em;
 } */
-.link{
+/* .link{
     background: lightcoral;
     color: #333;
     padding: 1em 2em;
     border-radius: 0.5rem;
-    /* font-size:4rem; */
-}
+    font-size:2rem;
+} */
