@@ -69,8 +69,9 @@
          }
          Podemos añadirle más valores como font-style, font-weight y font-display(experimental), pero esos son opcionales.
    Transformaciones de texto
-      Text-transform: Esta propiedad nos permite hacer transformaciones ESTÉTICAS en nuestro texto.
-      Admite los valores:
+
+    Text-transform: Esta propiedad nos permite hacer transformaciones ESTÉTICAS en nuestro texto.
+        Admite los valores:
          none: No se aplicará ninguna transformación.
          uppercase: El texto se pondrá en mayúsculas
          lowercase: El texto se pondrá en minúsculas
@@ -97,17 +98,25 @@
    Orientación del texto.
    writing-mode: Establece la dirección del texto
 */
-@font-face {
+/* @font-face {
     font-family: 'mano alzada';
     src:  url(../assets/fonts/GreatVibes-Regular.ttf);
-}
+} */
 body{
     background-color: #333;
     color: aliceblue;
-    font-family: "mano alzada";
+    font-family: sans-serif;
 }
 
 .icon {
     font-size: 3rem;
     color: red;
+}
+.text {
+    text-shadow: 1px 2px red, 4px 4px blue;
+}
+.link{
+    text-decoration: underline;
+    color: whitesmoke;
+    border-bottom: 2px solid white;
 }
