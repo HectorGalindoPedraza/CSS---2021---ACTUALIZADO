@@ -8,17 +8,26 @@
     www.w3.org/wiki/CSS/Properties/color/keywords 
 
     IMPORTANTE: Recordad que existe el color "tranparent"
+
+    CurrentColor: Es una palabra clave que se puede usar en
+    lugar de cualquier valor de color y usará ya sea 
+    establecido o heredado en la propiedad color. 
 */
 body {
     margin: 0;
-    background-color: #333;
+    background-color: mediumorchid;
+    color: #333;
+}
+.main{
+    color: aquamarine;
+    /* background-color: currentColor; */
 }
 .box {
-    border-left: 100px solid red;
+    /* border-left: 100px solid red;
     border-top: 100px solid blue;
-    border-bottom: 100px solid green;
-    /* width: 300px;
+    border-bottom: 100px solid green; */
+    width: 300px;
     height: 300px;
-    background-color: transparent;
-    color: lime; */
+    background-color: orange;
+    border: 5px solid currentColor;
 }
